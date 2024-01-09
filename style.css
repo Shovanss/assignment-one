@@ -1,4 +1,4 @@
-
+/* Banner */
 .banner{
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
    justify-content: center;
@@ -6,9 +6,7 @@
    height: 600px;
    border-radius: 16px;
     margin: auto;
-    
-    
-}
+    }
 .banner-content{
     color: #FFF;
 text-align: center;
@@ -34,6 +32,7 @@ align-content: center;
 margin: auto;
 width: 600px;
 }
+/* Main */
 .about{
     margin: 0 auto;
 }
@@ -67,6 +66,7 @@ font-weight: 700;
     justify-content: center;
     margin: auto;
  }
+ /* Third Section */
  .section-container{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(B9A1-New-Year-New-Mission/resources/Vectorrr.png);
     width: 1300px;
@@ -115,12 +115,25 @@ margin-left: 70px;
  .section-img-2{
     margin: 68px 130px;
  }
- 
- 
 
+ /* Portfolio */
 
+ .offer-name{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+   }
+.offer-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+width: 750px;
+}
+ .rectangle:hover{
+    background-color: lightskyblue;
+ }
  .rectangle{
-
     justify-content: center;
     display: flex;
     gap: 24px;
@@ -135,6 +148,11 @@ margin-left: 70px;
     border-radius: 16px;
     margin-top: 24px;
  }
+ .img-row-2:hover{
+    background-color: lightskyblue;
+ }
+
+ /* Fourth Section */
  .party-container{
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
    margin: 0 auto;
@@ -145,12 +163,12 @@ justify-content: center;
 text-align: center;
 align-items: center;
 align-content: center;
-margin-top: 20px;
+margin-top: 120px;
 
     }
   .party-time{
     text-align: center;
-    margin-top: 120px;
+    padding-top: 120px;
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 32px;
@@ -182,6 +200,7 @@ font-family: 'Inter', sans-serif;
    text-transform: uppercase;
    margin-bottom: 110px;
    }
+   /* Fifth Section */
 
 .new-offer-container{
     display: flex;
@@ -261,19 +280,9 @@ font-weight: 500;
 margin-bottom: 16px;
 text-align: left;
 }
-.offer-name{
-    color: #070211;
-    font-family: 'Merriweather', serif;
-    font-size: 48px;
-    font-weight: 900;
-   
-}
-.offer-desc{
-    color: rgba(7, 2, 17, 0.60);
-    font-family: 'Inter', sans-serif;
-font-size: 20px;
-width: 750px;
-}
+
+/* Newsletter */
+
 .subscription{
     border-radius: 16px;
 background: rgba(255, 0, 0, 0.05);
@@ -328,12 +337,37 @@ text-align: center;
 font-family: 'Inter', sans-serif;
 font-weight: 600;
 }
-.flex{
+.form-info{
     display: flex;
     justify-content: center ;
     margin-top: 48px;
     padding-bottom: 80px;
 }
+.form-email{
+    width: 350px;
+    border-radius: 50px 0 0 50px;
+background: #FFF;
+height: 52px;
+border: none;
+outline: none;
+}
+.form-btn{
+    width: 150px;
+    height: 52px;
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+border: none;
+outline: none; 
+color: #FFF;
+text-align: center;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 600;
+padding: 10px 15px;
+}
+
+/* Footer */
+
 footer{
     background: #070211;
     width: 1300px;
@@ -389,7 +423,7 @@ font-weight: 500;
         color: #FFF;
 font-family: Inter;
 font-size: 24px;
-font-weight: 500;   
+font-weight: 500;  
     }
     .footer-container a{
         text-decoration: none;
@@ -403,16 +437,18 @@ width: 450px;
 }
 .number{
     display: flex;
+   
 }
 .site{
     display: flex;
+    
 }
 .footer-contact a{
     color: #FFF;
     font-family: 'Inter', sans-serif;
 font-size: 24px;
 }
-div hr{
-    margin-left: 140px;
-    margin-right: 140px;
+.hr{
+    
+    width: 60%;
 }
