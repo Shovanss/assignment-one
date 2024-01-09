@@ -264,7 +264,7 @@ margin-left: 118px;
     margin: auto;
     margin-left: 118px;
  }
- .moree{
+ .more-image{
     margin-left: 118px
  }
 .offer{
@@ -375,7 +375,7 @@ margin: 0 auto;
 padding: 120px 0;
 }
 .footer-container{
-    max width: 82%;
+    max-width: 82%;
     width: 1300px;
     margin: 0 auto;
 }
@@ -437,6 +437,7 @@ width: 450px;
 }
 .number{
     display: flex;
+    
    
 }
 .site{
